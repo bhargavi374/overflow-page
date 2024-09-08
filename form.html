@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .scroller {
+            width: 400px;
+            height: 200px;
+            border: 1px solid gray;
+            border-radius: 5px;
+            padding: 20px;
+}
+    </style>
+</head>
+<body>
+    <caption><strong>Submission Form</strong></caption><br><br>
+    <form action="https://httpbin.org/post" class="scroller" method="post">
+        
+        <label for="name">Name:</label><br>
+        <input type="text" name="Name" required><br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" name="email" required><br><br>
+        <label for="pass">Password:</label><br>
+        <input type="password" name="password" required><br><br>
+        <input type="submit" style="background-color: rgba(2, 105, 2, 0.953);padding: 6px 10px; border-radius: 3px;border: 0;">
+    </form>
+</body>
+</html>
