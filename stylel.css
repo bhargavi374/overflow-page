@@ -3,6 +3,9 @@
     list-style-type: none;
     text-decoration: none;
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
 
 }
 @media (min-aspect-ratio:16/9) {
@@ -35,7 +38,6 @@ video{
     z-index: -1;
     right: 0;
     bottom: 0;
-   
 }
 .parent{
     width: 100%;
